@@ -44,6 +44,7 @@ class AppFixtures extends Fixture
         $comment1->setAuthor('Test');
         $comment1->setEmail('test@test.com');
         $comment1->setText('Great conference with amazing speakers and content');
+        $comment1->setState('published');
 
         $manager->flush();
     }
